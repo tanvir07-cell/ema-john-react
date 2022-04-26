@@ -1,0 +1,31 @@
+.header{
+    background-color:#1C2B35;
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+ 
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    margin-left:36px;
+}
+
+ul li a:hover{
+   color:orangered;
+   transition: all .5s;
+   -webkit-transition: all .5s;
+   -moz-transition: all .5s;
+   -ms-transition: all .5s;
+   -o-transition: all .5s;
+}
